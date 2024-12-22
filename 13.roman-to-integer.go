@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func romanToInteger(s string) int {
 	roman := map[string]int{
 		"I": 1,
@@ -33,10 +29,4 @@ func romanToInteger(s string) int {
 	}
 
 	return n
-}
-
-func main() {
-	nomer := romanToInteger("IV")
-
-	fmt.Println("nomer: ", nomer)
 }
